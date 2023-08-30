@@ -11,12 +11,12 @@ function subSell()
         $param["sDel"] = 1;
     }
 
-    if (! $param["sPage"]) {
+    if (!$param["sPage"]) {
         $param["sPage"] = 1;
     }
 
-    if (! $param["orderBy"]) {
-        $param["orderBy"] = 'SEARCHDT';
+    if (!$param["orderBy"]) {
+        $param["orderBy"] = 'SELLNO';
         $param["orderTo"] = 'desc';
     }
 
